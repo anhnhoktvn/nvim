@@ -39,4 +39,6 @@ nnoremap <Leader>wv :vsp \| b
 " new tab
 nnoremap <Leader>wn :lcd %:p:h\|enew<CR>
 " switch buffer in tab
-nnoremap <Leader>wr :b#<CR>
+nnoremap <Leader>wt :b#<CR>
+" reload file - enter to confirm
+nnoremap <Leader>wr :e!
