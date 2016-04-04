@@ -10,6 +10,9 @@ nnoremap q :w<cr>
 " quick exit to normal mode
 imap jk <Esc>
 
+" quick ex mode
+nnoremap ; :
+
 " override read-only permissions
 cmap w!! %!sudo tee > /dev/null %
 

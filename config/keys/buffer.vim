@@ -11,5 +11,3 @@ nnoremap <Leader>bQ :%bd<CR>
 nnoremap <Leader>bq :bd<CR>
 nnoremap <Leader>bs :sp \| b
 nnoremap <Leader>bv :vsp \| b
-" new buffer/tab
-nnoremap <Leader>e :enew<CR>
