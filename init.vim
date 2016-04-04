@@ -8,4 +8,5 @@ endfunction
 call Load('*.vim')
 call Load('core/*.vim')
 call Load('plugins/*.vim')
+call Load('scripts/*.vim')
 call Load('keys/*.vim')

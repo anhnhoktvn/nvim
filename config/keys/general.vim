@@ -39,3 +39,6 @@ nnoremap <Leader>cd :lcd %:p:h
 
 " copy current file directory
 nnoremap <Leader>cc :let @+ = expand("%:p:h")<cr>
+
+" Toggle number
+nnoremap <Leader>3 :call NumberToggle()<cr>

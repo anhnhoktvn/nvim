@@ -37,6 +37,6 @@ nnoremap <Leader>ws :sp \| b
 nnoremap <Leader>wv :vsp \| b
 
 " new tab
-nnoremap <Leader>wn :enew<CR>
+nnoremap <Leader>wn :lcd %:p:h\|enew<CR>
 " switch buffer in tab
 nnoremap <Leader>wr :b#<CR>
