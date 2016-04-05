@@ -4,6 +4,15 @@ let mapleader="\<SPACE>"
 " reload
 nnoremap <F5> :source $HOME/.config/nvim/init.vim<CR>
 
+" install Plugins
+nnoremap <F6> :PlugInstall<cr>
+
+" update Plugins
+nnoremap <F7> :PlugUpdate<cr>
+
+" clean Plugins
+nnoremap <F8> :PlugClean<cr>
+
 " save
 nnoremap q :w<cr>
 
@@ -15,6 +24,9 @@ nnoremap ; :
 
 " override read-only permissions
 cmap w!! %!sudo tee > /dev/null %
+
+" ,<Tab> for regular tab
+inoremap <Leader><Tab> <Space><Space>
 
 " CTRL-U in insert mode deletes a lot.  Use CTRL-G u to first break undo,
 " so that you can undo CTRL-U after inserting a line break.
